@@ -1,0 +1,94 @@
+/* Basic Reset */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+font-family: Arial, sans-serif;
+line-height: 1.6;
+}
+
+header {
+background-color: #333;
+color: #fff;
+padding-top: 100px; /* Adjusted for better visibility */
+text-align:center;
+
+}
+
+header h1{
+margin-bottom :20 px ;
+font-size :50px ; /* Larger font size */
+word-spacing :5 px ; 
+letter-spacing :.5px ;
+text-transform :uppercase ;
+
+
+}
+
+/* Header button styling */
+
+header button {
+
+background-color:#555 ;
+color:#fff ;
+border:inline-block ;
+padding :10px ;
+
+cursor:pointer ;
+
+}
+
+
+#sidebar {
+position:absolute ; 
+top :100px ; 
+left;10 px ;
+
+}
+#sidebar nav ul{
+list-style:none;
+
+}
+/* Article Section Styling */
+
+article section{
+padding;20 px :
+border-bottom;solid lightgray ;
+
+}
+footer{
+
+position:absolute :
+bottom :-100 px ; /* Adjust footer position for better visibility*/
+width =100 %,
+background-color:#333,
+color:#fff ,
+text-align:center,
+Padding=20 px 
+
+}
+
+
+
+
+/* Make sure every item in list are properly centered and aligned as shown in this example */
+
+
+.footer-links li {
+
+display:inline-block,
+
+
+
+}
+
+
+/* Media Queries For Responsiveness */
+
+@media(max-width){
+header h1{ font-size =30pixel };
+
+}
