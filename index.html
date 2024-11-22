@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programming Teaching Site</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Fashion is none of our business.</h1>
+        <p>We teach coding through hands-on applications.</p>
+        <button onclick="location.href='#learn-more'">Learn More</button>
+        <button onclick="location.href='#get-started'">Get Started</button>
+    </header>
+
+    <!-- Navigation -->
+    <nav id="sidebar">
+        <!-- Add navigation links here -->
+        ...
+    </nav>
+
+   <!-- Main Content -->
+   ...
+   <!-- Placeholder for article sections -->
+
+   ...
+
+   
+<script src="script.js"></script> 
+<script>
+// Example of JavaScript functionality - Scroll animation
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function(e) {
+e.preventDefault();
+
+document.querySelector(this.getAttribute('href')).scrollIntoView({
+behavior: 'smooth'
+});
+});
+});
+
+</script>
+
+
+<footer>&copy; 2023 Programming Teaching Site | Designed by [Your Name]</footer>
+
+  
